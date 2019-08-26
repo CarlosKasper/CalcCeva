@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/txtfirstceva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtfirstceva"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/txtml1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mililitros"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtpreco1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789."
+        android:hint="@string/preco"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/txtsecondceva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtsecondceva"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/txtml2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mililitros"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtpreco2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789."
+        android:hint="@string/preco"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/txtthirdceva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtthirdceva"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/txtml3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mililitros"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtpreco3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789."
+        android:hint="@string/preco"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btncalc"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:onClick="calc"
+        android:text="@string/calcular"/>
+
+    <WebView
+        android:id="@+id/webceva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </WebView>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CalcCeva</string>
+    <string name="txtfirstceva">Primeira cerveja :</string>
+    <string name="txtsecondceva">Segunda cerveja :</string>
+    <string name="txtthirdceva">Terceira cerveja :</string>
+    <string name="mililitros">Mililitros</string>
+    <string name="preco">Preço</string>
+    <string name="calcular">Calcular</string>
+</resources>
